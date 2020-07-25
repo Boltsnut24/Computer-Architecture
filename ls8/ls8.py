@@ -4,8 +4,9 @@
 
 import sys
 from cpu import *
+print("anything")
 
 cpu = CPU()
 
-cpu.load()
+cpu.load("ls8\examples\sctest.ls8")
 cpu.run()
